@@ -1,0 +1,330 @@
+@font-face { font-family: roboto-regular; 
+    src: url('Roboto-Regular.ttf'); }
+
+@font-face { font-family: roboto-bold; 
+    src: url('Roboto-Bold.ttf'); }
+*{
+	margin: 0;
+	padding: 0;
+  }
+  
+#mbajtesiW{
+    width:100%;
+	height:100%;
+	margin:auto;
+	background-color:rgb(237, 241, 245);
+	}
+#headM ul li img{
+	height:150px;
+    color:#EDF1F5;
+}
+#headM ul{
+	display:flex;
+	flex-direction:row;
+	align-content:center;
+	align-items:center;
+	
+}
+#headM ul li{
+	list-style:none;
+	margin-left:15px;
+	
+}
+#headD ul{
+	display:flex;
+	flex-direction:row;
+	align-content:center;
+	align-items:center;
+	margin-right:35px;
+}
+#headD {
+	display:flex;
+	
+	justify-content:flex-end;
+	flex:1;
+}
+
+#butoniLogin{
+	border:none;
+	padding:15px 32px;
+	transition-duration:0.4s;
+	margin-right:15px;
+	cursor:pointer;
+	
+	
+}
+#butoniLogin:hover{
+	background-color:#4CAF50;
+    color:white;
+	
+}
+
+#header{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:100px;
+	background-color:white;
+	align-items:center;
+	position:absolute;
+}
+li a{
+	text-decoration:none;
+	color:black;
+}
+li a:hover{
+	border-bottom:4px solid rgb(122, 181, 67);
+	
+}
+/*Pjesa e SLIDER-it*/
+
+#main{
+	width:100%;
+	min-height:500px;
+	
+}
+#slideshow {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 100px;
+  }
+  
+.mySlides img{
+	max-width:100%;
+
+}
+#braindemy{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+	text-decoration:none;
+	font-size:large;
+	margin-top:80px;	
+}
+
+#home{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+	text-decoration:none;
+	font-size:large;
+	margin-top:50px;
+}
+
+.mySlides {
+	display: none;
+  }
+
+/*Pjesa e DIV-it se cfare eshte Braindemy*/
+#cfareeshte{
+	height:250px;
+	width:100%;
+	 background-color:white;	
+}
+#cfareeshte ul{
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+}
+#cfareeshte ul li{
+	display:flex;
+	flex-direction:column;
+	list-style:none;
+	margin-left:30px;
+}
+#shkrimi{
+	size:150px;
+	color:black;	
+	margin-top:50px;
+	margin-bottom:50px;
+    text-indent:300px;
+	text-decoration:none;
+}
+#shkrimi2{
+	size:150px;
+	color:gray;	
+	
+    text-indent:300px;
+	text-decoration:none;
+}
+/*Pjesa e 4 flexboxave orange*/
+#flexboxi{
+	height:250px;
+	width:100%;
+	background-color:#F6BD60;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+#foto1{
+	height:70px;
+	width:70px;
+	align-content:center;
+	align-items:center;
+	margin-top:30px;
+	margin-left:100px;
+	justify-content:center;
+	margin-right:100px;
+	
+}
+#shkrimiflexbox{
+	justify-content:center;
+	color:white;
+	align-content:center;
+	align-items:center;
+	display:flex;
+	margin-left:100px;
+	margin-right:100px;
+
+	
+}
+#shkrimiflexbox2{
+	justify-content:center;
+	color: white;
+	align-content:center;
+	align-items:center;
+	display:flex;
+	margin-left:100px;
+	margin-right:100px;
+	text-decoration:none;
+}
+  .holdingcontainer {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	background: rgb(237, 241, 245);
+	box-sizing: border-box;
+	flex-direction: row;
+  }
+
+  .internalcontainerL {
+	flex: 1;
+	background: #F7EDE2;
+	padding: 30px;
+	font-size: 15px;
+	margin: 1px;
+	text-align: center;
+  }
+  .internalcontainerL a{
+	  text-decoration: none;
+	  color: black;
+  }
+
+  .internalcontainerM {
+	flex: 1;
+	background: #F5CAC3;
+	padding: 30px;
+	font-size: 15px;
+	margin: 1px;
+	text-align: center;
+  }
+  .internalcontainerM a{
+	text-decoration: none;
+	color: black;
+}
+.internalcontainerR{
+	flex: 1;
+	background:#F28482;
+	padding: 30px;
+	font-size: 15px;
+	margin: 1px;
+	text-align: center;
+  }
+  .internalcontainerR a{
+	text-decoration: none;
+	color: black;
+}
+
+  @media screen and (max-width: 768px) {
+	.holdingcontainer {
+	  flex-direction: column-reverse;
+	}
+  }
+
+/*Pjesa e bashkepunuesve*/
+#flexboxBashkpunues{
+    width:100%;
+	min-height:200px;
+	background: lightgrey;
+	display:flex;
+	flex-direction:row;
+	text-align:center;
+	justify-content:center;
+	
+}
+#shkrimiflexB{
+	margin-top:32px;
+	text-align:center;
+	justify-content:center;
+	color:#777;
+}
+#foto2{
+	flex-direction:column;
+	padding:15px 32px;
+	width:50px;
+	height:50px;
+}
+#foto3{
+	flex-direction:column;
+	padding:15px 32px;
+	width:50px;
+	height:50px;
+}
+#foto4{
+	flex-direction:column;
+	padding:15px 32px;
+	width:50px;
+	height:50px;
+}
+
+
+/*Pjesa e Footer-it*/
+#footer{
+	width:100%;
+	min-height:300px;
+	background:#333;
+	display:flex;
+	text-indent:150px;
+}
+
+#shkrimifooter{
+	color:#777;
+	text-decoration:none;
+}
+#shkrimifooter a{
+	text-decoration: none;
+	color:#777;
+}
+#shkrimifooter1{
+	margin-top:100px;
+	color:#777;
+	text-decoration:none;
+}
+#shkrimifooter2{
+margin-top:50px;
+	color:#777;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	margin-left:155px;
+}
+
+#butoni{
+	padding:15px 40px;
+	transition-duration:0.4s;
+}
+#butoni:hover{
+	background-color:#4CAF50;
+	color:white;
+	cursor:pointer;
+}
+

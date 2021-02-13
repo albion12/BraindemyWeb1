@@ -1,0 +1,103 @@
+@font-face { font-family: roboto-regular; 
+src: url('Roboto-Regular.ttf'); }
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background: #F0F8FF;
+user-select: none;
+}
+
+.container{
+width: 450px;
+margin: 30px auto;
+}
+
+.signup,
+.login{
+width: 50%;
+background: #fff;
+float: left;
+height: 60px;
+line-height: 60px;
+text-align: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.signup{
+background: none;
+}
+.signup-form,
+.login-form{
+background: #fff;
+padding: 40px;
+clear: both;
+width: 100%;
+box-sizing: border-box;
+height: 400px;
+}
+
+.input{
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+margin-bottom: 25px;
+border: 2px solid #e9eaea;
+font-size: 14px;
+outline: none;
+}
+
+.input:focus{
+border: 2px solid black;
+}
+.btn{
+border: 0;
+width: 100%;
+background: #00CCCC;
+height: 60px;
+text-align: center;
+line-height: 60px;
+text-transform: uppercase;
+color: #fff;
+font-weight: bold;
+letter-spacing: 1px;
+cursor: pointer;
+margin-bottom: 30px;
+}
+
+span a{
+text-decoration: none;
+color: #000;
+}
+
+.login-form h4{
+text-align: center;
+font-family: tahoma;
+padding-bottom: 2%;
+color: black;
+font-size: 13px;
+}
+
+.login-form a{
+	text-align: center;
+	color: black;
+	margin-left: 25%;
+	text-decoration: none;
+}
+
+.wrapper{
+	float: right;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+img {
+float: left;
+margin-left: 100px;
+margin-top: 130px;
+width: 612px;
+
+}
