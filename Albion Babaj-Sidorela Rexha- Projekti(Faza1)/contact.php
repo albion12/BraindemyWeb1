@@ -11,7 +11,7 @@ include 'includes/header.php';
 <body>
 	<div id="main">
 		<div id="mainPh">
-			<img src="https://critindia.com/wp-content/uploads/2020/02/contactusen.jpg" alt="" />
+		<a href=""><img src="./Images/contactus.jpg" alt = "" ></a>
 			<div id="contactus1">
 				<h1>CONTACT US</h1>
 			</div>

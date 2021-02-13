@@ -9,7 +9,7 @@ include 'includes/header.php';
 <body>
     <div id="main">
         <div id="mainPh">
-        <a href=""><img src="./Images/aboutus.jpg" alt = "" ></a>
+        <a href=""><img src="./Images/aboutus2.jpg" alt = "" ></a>
             <div id="aboutus1">
                 <h1>ABOUT US</h1>
             </div>

@@ -19,6 +19,9 @@ include 'includes/header.php';
 					<h1>BRAINDEMY - WHO ARE WE?</h1>
 				</div>
         <div class="mySlides">
+          <a href=""><img src="./Images/slider2.jpg" alt="" ></a> 
+        </div>
+        <div class="mySlides">
           <a href=""><img src="./Images/slider.jpg" alt="" ></a> 
         </div>
       </div>
