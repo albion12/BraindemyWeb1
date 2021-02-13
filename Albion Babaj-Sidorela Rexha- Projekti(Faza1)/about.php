@@ -1,39 +1,15 @@
+<?php
+include 'includes/header.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="Styles/styleAC.css">
 </head>
-
 <body>
-    <div id="mbajtesiW">
-        <div id="header">
-            <div id="headM">
-
-                <ul>
-                    <li>
-                        <href="#"><img src="https://i.imgur.com/KkWdAKN.png" alt="" title="source: imgur.com" /></a>
-                    </li>
-                    <li><a href="project.html">Home</a></li>
-                    <li><a href="trainingpage.html">Training</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li></li>
-
-                </ul>
-            </div>
-            <div id="headD">
-                <ul>
-                    <a href="login.html"><button id="butoniLogin">Log out</button></a>
-
-                </ul>
-            </div>
-        </div>
-    </div>
     <div id="main">
         <div id="mainPh">
-            <img src="https://scontent.fprn1-1.fna.fbcdn.net/v/t1.15752-9/131984271_399427388140291_923806882310739557_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=t09iLv8hCSkAX-HgabC&_nc_ht=scontent.fprn1-1.fna&oh=36406b9c3b831b17f583c1a529318cc9&oe=60045421"
-                alt="" />
+        <a href=""><img src="./Images/aboutus.jpg" alt = "" ></a>
             <div id="aboutus1">
                 <h1>ABOUT US</h1>
             </div>
@@ -84,32 +60,8 @@
     </div>
     </div>
     <!-- Pjesa e footer-it-->
-    <div id="footer">
-
-        <div>
-            <h3 id="shkrimifooter1">Contact</h3>
-            <h3 id="shkrimifooter">Mbreteresha Teute Str. 28A</h3>
-            <h3 id="shkrimifooter">40000 Mitrovice Kosovo</h3>
-            <h3 id="shkrimifooter">+383 (0)38 77 11 80</h3>
-            <h3 id="shkrimifooter">info@braindemy.com</h3>
-        </div>
-
-        <div>
-            <h3 id="shkrimifooter1">Pages</h3>
-            <h3 id="shkrimifooter"><a href="project.html">About Braindemy</a></h3>
-            <h3 id="shkrimifooter"><a href="trainingpage.html">Training & courses </a></h3>
-            <h3 id="shkrimifooter"><a href="events.html">Upcoming events</a></h3>
-            <h3 id="shkrimifooter"><a href="about.html"> Co-working spaces</a></h3>
-            <h3 id="shkrimifooter"><a href="contact.html"> Contact us </a></h3>
-        </div>
-        <div>
-			<h3 id="shkrimifooter1">Newsletter</h3>
-			<h3 id="shkrimifooter">Enter your e-mail below to subscribe</h3>
-			<h3 id="shkrimifooter">to our official newsletter</h3>
-			<h3 id="shkrimifooter2"><input type="text" /><button id="butoni">Subscribe</button></h3>
-			<br>
-			
-		</div>
-	</div>
+    <?php
+        include 'includes/footer.php';
+        ?>
 </body>
 </html>

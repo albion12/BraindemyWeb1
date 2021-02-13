@@ -1,38 +1,13 @@
+<?php
+include 'includes/header.php';
+?>
 <!DOCTYPE html>
 <html>
-
 <head>
 	<link rel="stylesheet" href="Styles/stiliTandE.css" type="text/css" />
 </head>
-
 <body>
-	<!-- Pjesa e headerit-->
-	<div id="mbajtesiW">
-		<div id="header">
-			<div id="headM">
-
-				<ul>
-					<li>
-						<href="#"><img src="https://i.imgur.com/KkWdAKN.png" alt = "" title="source: imgur.com" /></a>
-					</li>
-					<li><a href="project.html">Home</a></li>
-					<li><a href="trainingpage.html">Training</a></li>
-					<li><a href="events.html">Events</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-
-				</ul>
-			</div>
-			<div id="headD">
-				<ul>
-					<a href="login.html"><button id="butoniLogin">Log out</button></a>
-				</ul>
-			</div>
-
-		</div>
-		<!-- Pjesa e Slider-it-->
-
-		<div id="main">
+<div id="main">
 			<div id="sliderShow">
 				<img src="Images/eventet.jpg" alt ="" />
 				<div id="trainingdepartment">
@@ -66,7 +41,7 @@
 					<button id="butoni12">VIEW</button></h3>
                   </div>
 				</div>
-			
+
 
 			<div id="trainings">
 				<div id="fotocyber"><img src="https://ickosovo.com/images/uploads/photos/_square/B_Thumbnail.jpg" alt="" />
@@ -133,7 +108,7 @@
 						src="https://ickosovo.com/images/uploads/photos/calendar.svg" alt="">
 					<h2 id="shkrimiflexbox">465</h2>
 					<h5 id="shkrimiflexbox3">EVENTS</h5>
-					
+
 				</div>
 
 				<div class="orangeflexbox"><img id="foto1"
@@ -150,33 +125,9 @@
 				</div>
 			</div>
 
-			<!-- Pjesa e footer-it-->
-			<div id="footer">
-				<div>
-					<h3 id="shkrimifooter1">Contact</h3>
-					<h3 id="shkrimifooter">Mbreteresha Teute Str. 28A</h3>
-					<h3 id="shkrimifooter">40000 Mitrovice Kosovo</h3>
-					<h3 id="shkrimifooter">+383 (0)38 77 11 80</h3>
-					<h3 id="shkrimifooter">info@braindemy.com</h3>
-				</div>
-
-				<div>
-					<h3 id="shkrimifooter1">Pages</h3>
-					<h3 id="shkrimifooter"><a href="project.html">About Braindemy</a></h3>
-					<h3 id="shkrimifooter"><a href="trainingpage.html">Training & courses </a></h3>
-					<h3 id="shkrimifooter"><a href="events.html">Upcoming events</a></h3>
-					<h3 id="shkrimifooter"><a href="about.html"> Co-working spaces</a></h3>
-					<h3 id="shkrimifooter"><a href="contact.html"> Contact us </a></h3>
-				  </div>
-				<div>
-					<h3 id="shkrimifooter1">Newsletter</h3>
-					<h3 id="shkrimifooter">Enter your e-mail below to subscribe</h3>
-					<h3 id="shkrimifooter">to our official newsletter</h3>
-					<h3 id="shkrimifooter2"><input type="text" /><button id="butoni">Subscribe</button></h3>
-					<br>
-				</div>
-			</div>
-		</div>
+			<?php
+        include 'includes/footer.php';
+        ?>
 </body>
 
 </html>
