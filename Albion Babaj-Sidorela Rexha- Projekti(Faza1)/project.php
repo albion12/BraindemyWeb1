@@ -1,6 +1,6 @@
 <?php
 include 'includes/header.php';
-include 'login.php'
+
 ?>
 <!DOCTYPE html>
 <html>

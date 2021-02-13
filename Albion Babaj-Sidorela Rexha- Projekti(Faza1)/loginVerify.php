@@ -8,11 +8,11 @@ if (isset($_POST['loginBtn'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
     if (variablesNotDefinedWell($username, $password)) {
-        header('Location: ..login.php');
+        header('Location: .login.php');
     } else if (usernameAndPasswordCorrect($username, $password)) {
-        header('Location: ./project.php');
+        header('Location: .project.php');
     } else {
-        header('Location: ..login.php');
+        header('Location: .login.php');
     }
 }
 
